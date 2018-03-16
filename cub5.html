@@ -5,17 +5,20 @@
 	<link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'></link> 
 </head> 
 <body> 
-<p> UI version number: 2018.03.09.1</p>
+<p> UI version number: 2018.03.16.0</p>
 	<x3d width="400" height="200">
 		<scene>
-			<shape>
+			<shape DEF="cub">
 				<appearance>
-					<imagetexture url = "sigla-u-alba.png"/>
+					<material diffuseColor = "1 0 0"/>
 				</appearance>
 				<box>
 				
 				</box>
 			</shape>
+			<transform translation = "3 0 0">
+			<shape USE = "cub">
+			</transform>
 		</scene>
 	</x3d>
 	
