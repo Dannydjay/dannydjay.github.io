@@ -1,6 +1,7 @@
 
 setInterval(deseneaza, 30);
-
+var y=0
+var directie=1
 function deseneaza()
 {
 var t = document.getElementById("id_transform");
